@@ -10,7 +10,7 @@ public class ArrayManip {
 
 		printx(arr1, arr2);
 	}
-    
+
 	static void printx(int arr1[], int arr2[]) {
 		Set<Integer> s = new HashSet<>();
 		for (int i = 0; i < arr1.length; i++) {
@@ -22,12 +22,14 @@ public class ArrayManip {
 			/*
 			 * if (s.contains(arr2[i])) { System.out.print(arr2[i]); }
 			 */
-	//		System.out.print(arr2[i]);
+			// System.out.print(arr2[i]);
 		}
 		System.out.print(s);
 	}
 	/*
-	 * Set s=new HashSet<>(); static void remDup(int arr1[],int arr2[]) { for (int i
-	 * = 0; i < arr2.length; i++) { s.add(arr2[i]); }
+	 * Set s=new HashSet<>(); 
+	 * static void remDup(int arr1[],int arr2[]) {
+	 *  for (int i = 0; i < arr2.length; i++) {
+	 *   s.add(arr2[i]); }
 	 */
 }
