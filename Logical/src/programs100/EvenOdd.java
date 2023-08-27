@@ -1,7 +1,7 @@
 package programs100;
 
 import java.util.Scanner;
-
+//to check even odd 
 public class EvenOdd {
 	static void check(int n) {
 		if (n % 2 == 0) {
