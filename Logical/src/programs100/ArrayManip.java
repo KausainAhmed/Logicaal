@@ -7,7 +7,7 @@ public class ArrayManip {
 	public static void main(String[] args) {
 		int[] arr1 = { 2, 4, 5, 7, 8 };
 		int[] arr2 = { 2, 4, 6, 8, 9 };
-
+ 
 		printx(arr1, arr2);
 	}
 
