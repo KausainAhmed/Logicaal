@@ -8,7 +8,7 @@ public class ExceptionHandling {
 		System.out.println("input 1");
 		while (!sc.hasNextInt()) {
 			System.out.println("plz input only a num");
-			sc.next();
+			sc.next(); 
 		}
 		int i = sc.nextInt();
 
