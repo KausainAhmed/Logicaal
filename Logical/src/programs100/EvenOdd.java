@@ -16,4 +16,4 @@ public class EvenOdd {
 		int n = sc.nextInt();
 		check(n);
 	}
-}
+} 
