@@ -1,5 +1,5 @@
 package programs100;
-
+ 
 import java.util.Scanner;
 
 public class ExceptionHandlingInput {
